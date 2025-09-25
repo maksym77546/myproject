@@ -1,0 +1,10 @@
+body {
+    background-color: #f4f4f4; /* Задано фон */
+    font-family: Arial, sans-serif; /* Задано шрифт */
+}
+.logo {
+    font-size: 20px; /* Логотип більший */
+}
+.menu {
+    color: yellow; /* Жовте меню */
+}
