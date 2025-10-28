@@ -4,10 +4,134 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Mark Avreliy</title>
+    <link rel="stylesheet" href="cssstyle.css" type="text/css">
     <style>
     body {
-      background-image: url('gg.png')
-    }
+    background-image: url('gg.png');
+    background-repeat: repeat-x;
+    background-color: #E0E0E0;
+}
+body > * {
+    max-width: 900px; 
+    margin: 20px auto; /* Зовнішній відступ для центрування */
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+h2 {
+    color: #7A0417;
+    border-bottom: 2px solid #7A0417;
+}
+
+.bio-text {
+    font-size: large;
+    text-indent: 50px;
+}
+
+#footer-note {
+    color: #3C2F78;
+    font-size: smaller;
+    padding-top: 10px;
+}
+
+p.bio-text em {
+    color: #0000FF;
+    font-weight: 700;
+}
+section p {
+    padding: 15px; 
+    margin: 15px 0; 
+    padding: 10px;
+    margin: 10px 0;
+    border-left: 5px solid #1427AD;
+    background-color: #F9F9F9;
+    text-align: justify;
+}
+
+nav {
+    border-radius: 15px; 
+    box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+    padding: 15px;
+}
+
+ol, ul {
+    list-style-type: square; 
+    margin: 20px auto;
+    padding: 10px 30px;
+    background-color: #EFEFEF;
+    border: 1px dashed #7A0417;
+}
+
+table {
+    width: 100%;
+    margin-top: 15px;
+    border-collapse: separate; 
+    border-spacing: 15px; 
+}
+
+table td {
+    border: 3px solid #3C2F78; 
+    padding: 10px;
+    text-align: center;
+    vertical-align: top; 
+    border-radius: 10px; 
+    background-color: #FFFFFF;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.2); 
+}
+header h1 {
+    text-shadow: 3px 3px 5px #000000; 
+}
+h2 {
+    color: #7A0417;
+    border-bottom: 2px solid #7A0417;
+    background: linear-gradient(to right, #FFD0D0, #FFFFFF); 
+    padding: 10px;
+    padding-left: 20px;
+    border-radius: 8px; 
+}
+nav {
+    border-radius: 20px; 
+    box-shadow: 0 8px 16px rgba(10, 0, 50, 0.3); 
+    padding: 15px; 
+    margin: 30px auto; 
+    border: 4px;
+    border-style: double; 
+    border-color: #1427AD;
+    background-color: #FFFFFF;
+}
+header p em font {
+    text-shadow: 1px 1px 2px #7A0417; 
+}
+section p a img { 
+    box-shadow: 8px 8px 15px -4px #333333; 
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+section p a img:hover {
+    transform: scale(1.03);
+}
+section p {
+    padding: 10px;
+    margin: 10px 0;
+    border-left: 5px solid #1427AD;
+    background-color: #F9F9F9;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2) inset; 
+    border-radius: 5px;
+}
+table td {
+    border: 3px solid #3C2F78; 
+    background-color: #FFFFFF;
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.3); 
+    border-radius: 15px; 
+}
+ol, ul {
+    padding: 20px; 
+    margin: 20px auto; 
+    border: 3px;
+    border-style: dotted dashed;
+    border-radius: 10px;
+    background: radial-gradient(circle, #EFEFEF 0%, #E0E0E0 100%);
+}
+
   </style>
 </head>
 <body background="src=005536_flat.jpg">
@@ -19,15 +143,23 @@
         <td width="50%"></td>
         <header>
            <h1 align="center">
-        Марк Аврелій
-    </h1>
-    <p align="right">
-        <em><font>Не витрачай життя на суперечки про те, <br> яким має бути хороша людина. Стань такою. <br> Марк Аврелій.</font></em>
-        
-    </p>
-    <hr color="#1427AD" size="3">
-    <marquee behavior="srcoll" direction="left" align="middle">Привіт, ця сторінка для тих, хто хоче дізнатися про стоїка, Марка Аврелія</marquee>
+               Марк Аврелій
+           </h1>
+           <p align="right">
+               <em><font>Не витрачай життя на суперечки про те, <br> яким має бути хороша людина. Стань такою. <br> Марк Аврелій.</font></em>
+           </p>
+           <hr color="#1427AD" size="3">
+           <marquee behavior="srcoll" direction="left" align="middle">Привіт, ця сторінка для тих, хто хоче дізнатися про стоїка, Марка Аврелія</marquee>
         </header>
+        
+        <nav style="text-align: center; margin: 20px 0; border: 1px solid #1427AD; padding: 10px;">
+            <a href="page2.html" style="margin: 0 15px; text-decoration: none; color: #1427AD; ">Перейти на Сторінку 2</a> |
+            
+            <a href="page3.html" target="_blank" style="margin: 0 15px; text-decoration: none; color: #7A0417; ">Відкрити Сторінку 3</a> |
+            
+            <a href="#smert_avreliy" style="margin: 0 15px; text-decoration: none; color: #376B07; ">До кінця сторінки (Смерть)</a>
+        </nav>
+
         <hr color="#1427AD">
         
         <section>
@@ -37,7 +169,15 @@
             </strong>
             </h2>
             <p >
-                 <img src="005536_flat.jpg" alt="" align="right" hspace="15" height="350" width="250">
+                <a href="page2.html"> 
+                    <img src="005536_flat.jpg" alt="Марк Аврелій. Графічне посилання на page2.html" align="right" hspace="15" height="350" width="250" usemap="#marcus_map">
+                </a>
+
+                <map name="marcus_map">
+                    <area shape="rect" coords="0,0,100,100" href="page3.html" alt="Лівий верхній кут: посилання на page3.html"> 
+                    <area shape="circle" coords="125,200,50" href="mailto:horobets_maksym@gmail.com=Питання_щодо_Марка_Аврелія" alt="Центр: Надіслати листа"> 
+                </map>
+                
                 <font color="#376B07"><b>Марк Аврелій Антонін</b> — римський імператор, один із найвизначніших представників стоїцизму, відомий як "філософ на троні".
                 Народився 26 квітня 121 року в Римі в заможній і впливовій родині.
 
@@ -105,38 +245,38 @@
             <h2>
                 Філософія якої Аврелій дотримувався
             </h2>
-            <p>
+            <p STYLE="font-size: bigger; font-style: italic; font-family: Arial 'Times New Roman' ">
                 Стоїцизм — це філософська школа, заснована в Стародавній Греції близько 300 р. до н.е. філософом Зеноном із Кітія.
 Вона вчить, як досягти внутрішнього спокою і щастя, незважаючи на зовнішні обставини. 
 <h3>Основні ідеї якої є:</h3>
     <ul>
-  <li>Чеснота — головне благо</li>
-  <dl>
-                <dt>
-                   Центральною ідеєю стоїцизму є те, що чеснота (або добродія) — єдине справжнє благо. До чеснот відносяться мудрість, справедливість, мужність і поміркованість. Усе інше — здоров'я, багатство, слава — стоїки вважали байдужим (адіафора), тобто тим, що не має значення для внутрішнього щастя.
-                </dt>
-            </dl>
-            <br>
-  <li>Контроль лише над тим, що залежить від нас</li>
-  <dl>
-    <dt>
-        Стоїки вірили, що ми не можемо контролювати зовнішні події, але можемо контролювати свою реакцію на них. Гнів, страх, смуток — це емоції, які виникають від неправильних суджень. Стоїки вчили, що треба тренувати себе не піддаватися цим емоціям і зберігати душевний спокій (апатію).
-    </dt>
-  </dl>
-  <br>
-  <li>Життя у згоді з природою</li>
-  <dl>
-    <dt>
-        Стоїки вважали, що людина має жити відповідно до природи та розуму. Природа, на їхню думку, є раціональною і впорядкованою, а людина — її частиною. Тому, щоб бути щасливою, треба слідувати розуму, який є вищою формою природи.
-    </dt>
-  </dl>
-  <br>
-  <li>Прийняття того, що неможливо змінити</li>
-  <dl>
-    <dt>
-        Згідно зі стоїцизмом, все, що відбувається, є частиною універсального порядку. Тому ми повинні приймати свою долю і те, що не можемо змінити, без нарікань. Це дозволяє зосередитися на тому, що дійсно в наших силах — на наших думках і діях.
-    </dt>
-  </dl>
+    <li>Чеснота — головне благо</li>
+    <dl>
+        <dt>
+            Центральною ідеєю стоїцизму є те, що чеснота (або добродія) — єдине справжнє благо. До чеснот відносяться мудрість, справедливість, мужність і поміркованість. Усе інше — здоров'я, багатство, слава — стоїки вважали байдужим (адіафора), тобто тим, що не має значення для внутрішнього щастя.
+        </dt>
+    </dl>
+    <br>
+    <li>Контроль лише над тим, що залежить від нас</li>
+    <dl>
+        <dt>
+            Стоїки вірили, що ми не можемо контролювати зовнішні події, але можемо контролювати свою реакцію на них. Гнів, страх, смуток — це емоції, які виникають від неправильних суджень. Стоїки вчили, що треба тренувати себе не піддаватися цим емоціям і зберігати душевний спокій (апатію).
+        </dt>
+    </dl>
+    <br>
+    <li>Життя у згоді з природою</li>
+    <dl>
+        <dt>
+            Стоїки вважали, що людина має жити відповідно до природи та розуму. Природа, на їхню думку, є раціональною і впорядкованою, а людина — її частиною. Тому, щоб бути щасливою, треба слідувати розуму, який є вищою формою природи.
+        </dt>
+    </dl>
+    <br>
+    <li>Прийняття того, що неможливо змінити</li>
+    <dl>
+        <dt>
+            Згідно зі стоїцизмом, все, що відбувається, є частиною універсального порядку. Тому ми повинні приймати свою долю і те, що не можемо змінити, без нарікань. Це дозволяє зосередитися на тому, що дійсно в наших силах — на наших думках і діях.
+        </dt>
+    </dl>
 </ul>
 
 <h2>
@@ -145,8 +285,10 @@
 <p ><font color="#3C2F78">
     Він був усиновлений імператором Антоніном Пієм. Після смерті Антоніна він спочатку правив разом з Луцієм Вером, що було першим випадком подвійного правління в історії Риму. Після смерті Луція у 169 році Марк Аврелій став єдиновладним імператором.</font>
 </p>
-
             </p>
+            
+            <a id="smert_avreliy"></a>
+
             <h2>
                 Смерть Марка Аврелія і вплив на стоїцизм
             </h2>
@@ -162,6 +304,7 @@
             <hr>
             <p align="center">
                 Сторінку підготував Горобець Максим <br>
+                <a href="mailto:horobets_maksym@gmail.com=Запитання_щодо_Марка_Аврелія">Зв'язатися з автором</a> Поштове посилання<br> 
                 &copy; Всі права захищено! Матеріали взяті із відкритих джерел.<br> 
                 <font size=2>Джерело інформації: <a href="https://uk.wikipedia.org/wiki/%D0%9C%D0%B0%D1%80%D0%BA_%D0%90%D0%B2%D1%80%D0%B5%D0%BB%D1%96%D0%B9">
 Марк Аврелій</a>

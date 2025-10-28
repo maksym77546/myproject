@@ -1,0 +1,21 @@
+body {
+    background-color: #f4f4f4;
+    color: #333333;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #1427AD;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
